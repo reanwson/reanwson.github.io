@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Reanwson 2018</copyright>
+    <lastBuildDate>Tue, 05 Jun 2018 11:22:55 +0800</lastBuildDate>
     
 	<atom:link href="https://reanwson.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://reanwson.github.io/about/</link>
+      <pubDate>Tue, 05 Jun 2018 11:22:55 +0800</pubDate>
+      
+      <guid>https://reanwson.github.io/about/</guid>
+      <description>About Reanwson</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://reanwson.github.io/post/hello-world/</link>
+      <pubDate>Tue, 05 Jun 2018 10:40:53 +0800</pubDate>
+      
+      <guid>https://reanwson.github.io/post/hello-world/</guid>
+      <description>Hello World!</description>
+    </item>
     
   </channel>
 </rss>
