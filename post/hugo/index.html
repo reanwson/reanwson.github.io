@@ -5,10 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>
-  Posts
-   | Reanwson
-</title>
+  <title>Hugo</title>
 
   
   
@@ -19,22 +16,52 @@
 
   
   <meta name="author" content="Reanwson" />
-  <meta name="description" content="" />
+  <meta name="description" content="macOS 10.13.4
+zsh 5.3
+Hugo v0.41
+Installing Hugo
+$ brew install hugo  Check Hugo version
+$ hugo version  create new site
+$ hugo new site reanwson.github.io  Add theme
+$ cd reanwson.github.io/ $ git init $ git clone https://github.com/laozhu/hugo-nuo themes/hugo-nuo  config theme
+vim config.toml baseURL = &amp;quot;http://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot;  create post
+hugo new post/hello-world.md  create about page
+$ hugo new about." />
 
   
   
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@gohugoio" />
-    <meta name="twitter:title" content="Posts" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:title" content="Hugo" />
+    <meta name="twitter:description" content="macOS 10.13.4
+zsh 5.3
+Hugo v0.41
+Installing Hugo
+$ brew install hugo  Check Hugo version
+$ hugo version  create new site
+$ hugo new site reanwson.github.io  Add theme
+$ cd reanwson.github.io/ $ git init $ git clone https://github.com/laozhu/hugo-nuo themes/hugo-nuo  config theme
+vim config.toml baseURL = &amp;quot;http://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot;  create post
+hugo new post/hello-world.md  create about page
+$ hugo new about." />
     <meta name="twitter:image" content="https://reanwson.github.io/img/avatar.jpg" />
   
 
   
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Posts" />
-  <meta property="og:description" content="" />
-  <meta property="og:url" content="https://reanwson.github.io/post/" />
+  <meta property="og:title" content="Hugo" />
+  <meta property="og:description" content="macOS 10.13.4
+zsh 5.3
+Hugo v0.41
+Installing Hugo
+$ brew install hugo  Check Hugo version
+$ hugo version  create new site
+$ hugo new site reanwson.github.io  Add theme
+$ cd reanwson.github.io/ $ git init $ git clone https://github.com/laozhu/hugo-nuo themes/hugo-nuo  config theme
+vim config.toml baseURL = &amp;quot;http://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot;  create post
+hugo new post/hello-world.md  create about page
+$ hugo new about." />
+  <meta property="og:url" content="https://reanwson.github.io/post/hugo/" />
   <meta property="og:image" content="https://reanwson.github.io/img/avatar.jpg" />
 
 
@@ -43,7 +70,7 @@
 <meta name="generator" content="Hugo 0.41" />
 
 
-<link rel="canonical" href="https://reanwson.github.io/post/" />
+<link rel="canonical" href="https://reanwson.github.io/post/hugo/" />
 <link rel="alternative" href="https://reanwson.github.io/index.xml" title="Reanwson" type="application/atom+xml" />
 
 
@@ -106,6 +133,10 @@
     
     <div class="suspension">
       <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
+      
+        
+        <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
+        
       
     </div>
     
@@ -218,63 +249,119 @@
   </nav>
 </header>
 
-  <section class="main post-list">
-    <header class="list-header offscreen">
-      <h2 class="list-label">Posts List</h2>
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Hugo</h1>
+      <p class="post-meta">@Reanwson · Jun 5, 2018 · 1 min read</p>
     </header>
+    <article class="post-content"><p>macOS 10.13.4</p>
+
+<p>zsh 5.3</p>
+
+<p>Hugo v0.41</p>
+
+<p>Installing Hugo</p>
+
+<pre><code>$ brew install hugo
+</code></pre>
+
+<p>Check Hugo version</p>
+
+<pre><code>$ hugo version
+</code></pre>
+
+<p>create new site</p>
+
+<pre><code>$ hugo new site reanwson.github.io
+</code></pre>
+
+<p>Add theme</p>
+
+<pre><code>$ cd reanwson.github.io/
+$ git init
+
+$ git clone https://github.com/laozhu/hugo-nuo themes/hugo-nuo
+</code></pre>
+
+<p>config theme</p>
+
+<pre><code>vim config.toml
+
+baseURL = &quot;http://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+</code></pre>
+
+<p>create post</p>
+
+<pre><code>hugo new post/hello-world.md
+</code></pre>
+
+<p>create about page</p>
+
+<pre><code>$ hugo new about.md
+
+$ vim content/about.md
+</code></pre>
+
+<p>about.md</p>
+
+<pre><code>---
+title: &quot;About&quot;
+date: 2017-08-02
+layout: &quot;about&quot;
+menu: &quot;main&quot;
+weight: 50
+comments: false
+---
+
+Write something about you here.
+
+hugo -D --theme=hugo-nuo --baseUrl=&quot;https://reanwson.github.io/&quot;
+</code></pre>
+
+<p>Add git .gitignore</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#a6e22e">vim</span> .<span style="color:#a6e22e">gitignore</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>.<span style="color:#a6e22e">DS_Store</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Thumbs</span>.<span style="color:#a6e22e">db</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">public</span>/</code></pre></div>
+<p>generate static page</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo -D</code></pre></div>
+<p>Links</p>
+
+<p><a href="https://gohugo.io/">Hugo</a></p>
+
+<p><a href="https://themes.gohugo.io/hugo-nuo/">Hugo Nuo</a></p>
+</article>
+    <footer class="post-footer">
+      
+      <p class="post-copyright">
+        © Reanwson 2018
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
     
     
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://reanwson.github.io/post/hugo/" class="post-link">Hugo</a></h3>
-    <p class="post-meta">@Reanwson · Jun 5, 2018 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">macOS 10.13.4
-zsh 5.3
-Hugo v0.41
-Installing Hugo
-$ brew install hugo  Check Hugo version
-$ hugo version  create new site
-$ hugo new site reanwson.github.io  Add theme
-$ cd reanwson.github.io/ $ git init $ git clone https://github.com/laozhu/hugo-nuo themes/hugo-nuo  config theme
-vim config.toml baseURL = &#34;http://example.org/&#34; languageCode = &#34;en-us&#34; title = &#34;My New Hugo Site&#34;  create post
-hugo new post/hello-world.md  create about page
-$ hugo new about.</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://reanwson.github.io/post/hugo/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://reanwson.github.io/post/2016-06-05/" class="post-link">2016 06 05</a></h3>
-    <p class="post-meta">@Reanwson · Jun 5, 2018 · 0 min read</p>
-  </header>
-  
-  <p class="post-summary"></p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://reanwson.github.io/post/2016-06-05/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://reanwson.github.io/post/hello-world/" class="post-link">Hello World</a></h3>
-    <p class="post-meta">@Reanwson · Jun 5, 2018 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">Hello World!</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://reanwson.github.io/post/hello-world/">Read More →</a>
-  </footer>
-</article>
-
-      
     
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "reanwson" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
     
   </section>
   <footer class="site-footer">

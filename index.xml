@@ -22,6 +22,34 @@
     </item>
     
     <item>
+      <title>Hugo</title>
+      <link>https://reanwson.github.io/post/hugo/</link>
+      <pubDate>Tue, 05 Jun 2018 17:03:54 +0800</pubDate>
+      
+      <guid>https://reanwson.github.io/post/hugo/</guid>
+      <description>macOS 10.13.4
+zsh 5.3
+Hugo v0.41
+Installing Hugo
+$ brew install hugo  Check Hugo version
+$ hugo version  create new site
+$ hugo new site reanwson.github.io  Add theme
+$ cd reanwson.github.io/ $ git init $ git clone https://github.com/laozhu/hugo-nuo themes/hugo-nuo  config theme
+vim config.toml baseURL = &amp;quot;http://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot;  create post
+hugo new post/hello-world.md  create about page
+$ hugo new about.</description>
+    </item>
+    
+    <item>
+      <title>2016 06 05</title>
+      <link>https://reanwson.github.io/post/2016-06-05/</link>
+      <pubDate>Tue, 05 Jun 2018 17:00:23 +0800</pubDate>
+      
+      <guid>https://reanwson.github.io/post/2016-06-05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://reanwson.github.io/post/hello-world/</link>
       <pubDate>Tue, 05 Jun 2018 10:40:53 +0800</pubDate>
