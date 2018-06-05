@@ -1,0 +1,49 @@
+baseURL = "https://reanwson.github.io/"
+languageCode = "en-us"
+title = "Reanwson"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
+disqusShortname = "reanwson"
+
+# Google Analytics UA number
+googleAnalytics = "UA-120351367-1"
+
+# Copyright of your post
+copyright = "© Reanwson 2018"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Works"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/reanwson"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 40
+  identifier = "tags"
+  url = "/tags/"
+
+# Add your own params here
+[params]
+  author = "Reanwson"
+  avatar = "/img/avatar.jpg"
+  seotitle = "Reanwson"
+  subtitle = "~ Keep It Simple & Stupid ~"
+  description = "Reanwson."
+  paginate = 10
+
+  # Choose your social networks
+  email = "reanwson@gmail.com"
+  github = "reanwson"
+
